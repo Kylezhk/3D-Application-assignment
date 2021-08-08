@@ -1,0 +1,206 @@
+@font-face {
+	font-family: 'cocaColaFont';
+	src: url('fonts/LOKICOLA.TTF');
+}
+
+.main {
+	width: 70%;
+	margin-left: 15%;
+	padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+body{
+	background-color: rgb(41, 41, 41);
+	font-family: 'Open Sans', 'sans-serif';
+}
+
+#main_3d_image {
+	background-image: url('img/cola.gif') ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* The div blocsk for the main_3d_image has no vertical size, 
+	so we need a height to see the background image */
+	height: 450px;
+	margin-bottom: 20px;
+	
+}
+
+#main_text {
+	float: left;
+	margin: 5%;
+	width: 90%;
+	display: block;
+	background-color: rgba(255, 255, 255, 0.65);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#main_text h2 {
+	color: rgb(179, 0, 0);
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#main_text h3 {
+	color: rgb(1, 107, 228);
+	font-size: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#main_text p {
+	font-size: 12px;
+	margin: 0px;
+	line-height: 1.2;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.card-title{
+	font-family: 'Oswald', sans-serif;
+}
+
+.card-subtitle{
+	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.btn-outline-primary{
+	color:#ffffff;
+	background-color: rgb(0, 0, 0);
+	border: 1px solid rgba(0, 0, 0);
+}
+
+.logo {
+	margin-top: 3px;
+}
+	
+.logo h1 {
+	font-family: 'cocaColaFont'; /* You don't need to repeat this for each media query as it is propagated */
+	font-size: 50px;
+	margin: 0;
+	margin-top: -10px;
+	margin-bottom: -15px;
+	float: left;
+	padding-top: 5px;
+	padding-left: 0px;
+	padding-right: 2px;
+}
+	
+.logo h2 {
+	font-family: 'cocaColaFont';
+	font-size: 48px;
+	margin-top: -2px;
+	margin-bottom: -15px;
+	padding-top: 5px;
+	padding-left: -6px;
+	padding-right: 3px;
+	float: left;
+}
+	
+.logo h3 {
+	font-size: 26px;
+	margin-top: 0px;
+	margin-bottom: -5px;
+	padding-top: 14px;
+	padding-left: 0px;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+}
+	
+.logo p {
+	font-size: 10px; 
+	margin-top: 46px; 
+	margin-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 40px;
+	
+}
+
+.logo a {
+    color: rgb(245, 235, 235);
+	text-decoration: none;
+}
+    
+.logo a:hover {
+    color: #bd0006;
+}
+
+.footer {
+	background-color: #161616; /* Set navbar footer background color same as header */
+	position:sticky;
+  	width: 100%;
+}
+
+.navbar_coca_cola {
+    background-color: #161616; /* Set navbar background color */
+    border-style: solid;
+    border-width: 0px;
+    min-height: 70px;
+}
+
+.social {
+	padding-top: 0px;
+}
+
+.copyright {
+	padding-top: 18px;
+	color: #ffffff;
+}
+
+
+.navbar_coca_cola ul a:hover {
+	border: 0px solid #ffffff;
+	color:  #000000;
+	background-color: #ffffff;
+}
+
+.navbar_coca_cola ul .active{
+	background-color: #ffffff;
+	color:  #000000;
+}
+
+.navbar_coca_cola ul a {
+	margin-left: 5px;
+    color: white;  
+}
+
+.navbut {
+	background-color: #ffffff;
+	background-image: url('img/icons8-menu-24.png') ;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-right: 0px;
+	
+}
+
+.navbar_coca_cola .navbar-nav .nav-item {
+    margin-top: 0px;
+}
+
+audio { 
+	float: right;
+	height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
